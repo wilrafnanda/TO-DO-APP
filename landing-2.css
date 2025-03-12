@@ -1,0 +1,97 @@
+
+:root{
+    --accent-pink-600: #E82561;
+    --accent-pink-600: #C30E59;
+    --accent-pink-500: #E11D48;
+    --accent-pink-400: #F472B6;
+    --accent-pink-300: #FECDD3;
+    --accent-pink-200: #FED7E2;
+
+    --pale-orange-400:#F2AE66;
+    --pale-orange-600:#E8E7AB;
+
+}
+
+.welcome-text-1 {
+    color: var(--pale-orange-400);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+    height: 100vh;
+    background-color: var(--pale-orange-600);
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    font-family:'Comic Sans Ms' ;
+    
+}
+
+
+
+
+.welcome-text-1 p {
+   color: var(--pale-orange-400);
+ 
+}
+
+.continue-button-1 button {
+   padding: 15px 50px;
+   border-radius: 50px;border: none;
+   font-family: inherit;
+   background: var(--pale-orange-400);
+   color: white;
+   margin-bottom: 20px;
+}
+
+.continue-button button:hover {
+   
+}
+
+.skip-link-1 a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 0.9em;
+    margin-top: 20px;
+    
+}
+.skip-link-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.skip-link a:hover {
+    text-decoration: underline;
+}
+
+
+.nav img{
+    width: 60px;
+}
+.nav{
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+}
+
+
+
+.illustration-2 img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 50px;
+}
+
