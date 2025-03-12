@@ -36,17 +36,18 @@ function createTodoItem(todo, todoIndex){
     const todoText = todo.text;
     todoLI.className = "todo";
     todoLI.innerHTML = `
-       <input type="checkbox" id="${todoId}">
+                          <input type="checkbox" id="${todoId}">
                     <label for="${todoId}" class="custom-checkbox">
                         <img src="assets/images/check_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg ">
                     </label>
-                    <label for="${todoId}" class="todo-text">
-                    ${todoText}
+                    <label for="t${todoId}" class="todo-text">
+                              ${todoText}
                     </label>
                 
                 <button class="delete-button">
                     <img src="assets/images/delete_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="delete button">
                 </button>
+
     `
     const deleteButton = todoLI.querySelector(".delete-button");
     deleteButton.addEventListener("click", ()=>{

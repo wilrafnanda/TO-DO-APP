@@ -103,7 +103,10 @@ form{
     color: rgb(0, 0, 0);
     transition: 200ms ease;
 
+   
+
 }
+
 .delete-button{
     padding: 3px;
     border-radius: 50%;
@@ -120,7 +123,12 @@ form{
 .delete-button:hover{
     background: red;
 }
-
+.todo-text  {
+    word-wrap: break-word; /* Allows long words to be broken and wrap to the next line */
+    word-break: break-all; /* Ensures that text breaks within words if necessary */
+    white-space: normal; /* Allows text to wrap normally */
+    max-width: 100%; /* Ensures the text does not exceed the width of its container */
+}
 .custom-checkbox{
     /* border: 2px solid var(--accent-pink-600); */
     border:2px solid rgb(165, 158, 158);
